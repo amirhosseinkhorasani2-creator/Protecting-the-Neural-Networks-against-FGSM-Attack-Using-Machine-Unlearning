@@ -1,0 +1,28 @@
+📊 Results & Analysis
+
+Baseline model: 99.32 % accuracy on clean data
+Under FGSM (ε = 0.1): accuracy drops to 7.96 %
+After 5 rounds of unlearning: 96.69 % accuracy recovered
+Robustness gain: +88.7 % improvement without full retraining
+
+
+🧭 Future Work
+
+Extend the framework to PGD, DeepFool, and CW attacks.
+Apply the method to Transformer and ResNet architectures.
+Incorporate federated unlearning for distributed security.
+Optimize the pipeline with parallel algorithms (OpenMP / CUDA) for large datasets.
+
+
+📚 Citation
+
+If you use this work, please cite:
+Khorasani, A. H., Jahanian, A., & Rastgarpour, M. (2025).
+Protecting Neural Networks Against FGSM Attack Using Machine Unlearning. arXiv preprint.
+
+
+🤝 Contact
+
+📧 Email: amirhosseinkhorasani2@gmail.com
+🔗 LinkedIn: linkedin.com/in/amir-hossein-khorasani-9a4158247
+ | GitHub: github.com/amirhosseinkhorasani2-creator
